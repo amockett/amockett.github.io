@@ -2745,8 +2745,6 @@ input, select, textarea {
 
 			.tiles article h3 {
 				font-size: 2.5em;
-				/*text-shadow: 3px 3px #000;*/
-
 			}
 
 				.tiles article h3 a:hover {
@@ -2773,7 +2771,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.90;
+				opacity: 1;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -3361,7 +3359,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner1.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3396,7 +3394,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3427,6 +3425,7 @@ input, select, textarea {
 
 				#banner > .inner header > :first-child {
 					width: auto;
+					text-shadow: 0.08em 0.07em #242943;
 				}
 
 					#banner > .inner header > :first-child:after {
@@ -3452,10 +3451,11 @@ input, select, textarea {
 
 				#banner > .inner .content > :last-child {
 					margin-right: 0;
+					text-shadow: 0.2em 0.06em #242943;
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: 0.9em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
